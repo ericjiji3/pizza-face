@@ -1,0 +1,32 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url("../public/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.home .padded-container{
+  padding: 0 250px;
+}
+@font-face {
+  font-family: 'Bouncy';
+  src: url('../assets/fonts/bouncy.otf');
+}
+
+@import "../styles/partials/about";
+@import "../styles/partials/header";
+@import "../styles/partials/roadmap";
+@import "../styles/partials/team";
+@import "../styles/partials/footer";
+@import "../styles/partials/accordion";

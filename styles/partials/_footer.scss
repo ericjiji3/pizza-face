@@ -1,0 +1,22 @@
+.f-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 250px;
+    background-color:#76201E;
+    align-items: center;
+    span{
+        font-family: 'Wellfleet', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.1em;
+        color: #FED206;
+    }
+    .social-container {
+        display: flex;
+        .image-wrapper{
+            margin: 0 10px;
+        }
+    }
+}
