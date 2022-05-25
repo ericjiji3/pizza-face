@@ -107,6 +107,23 @@ export default function Header() {
                                 TEAM
                             </Link>
                             </li>
+                            <div className="socials">
+                                <a href="#">
+                                    <div className="image-wrapper">
+                                        <Image src={discord} />
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div className="image-wrapper">
+                                        <Image src={twitter} />
+                                    </div>
+                                </a>
+                                <a href="#">
+                                    <div className="image-wrapper">
+                                        <Image src={boat} />
+                                    </div>
+                                </a>
+                            </div>
                         </ul>
                     </Menu>
                 </div>
@@ -116,17 +133,17 @@ export default function Header() {
                     <div className="h-links">
                         <ul>
                             <li>
-                            <Link to="about" spy={true} smooth={true} duration={500}>
+                            <Link to="about" spy={true} smooth={true} duration={500} offset={-100}>
                                     ABOUT
                             </Link>
                             </li>
                             <li>
-                            <Link to="roadmap" spy={true} smooth={true} duration={500}>
+                            <Link to="roadmap" spy={true} smooth={true} duration={500} offset={-100}>
                                 ROADMAP
                             </Link>
                             </li>
                             <li>
-                            <Link to="team" spy={true} smooth={true} duration={500}>
+                            <Link to="team" spy={true} smooth={true} duration={500} offset={-100}>
                                 TEAM
                             </Link>
                             </li>

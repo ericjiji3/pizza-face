@@ -144,6 +144,9 @@
                             cursor: pointer;
                         }
                     }
+                    ul:focus-visible{
+                        outline: none;
+                    }
                     .socials{
                         a{
                             margin: 0px;
