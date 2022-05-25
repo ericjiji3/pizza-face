@@ -28,7 +28,7 @@ export default function About() {
                     <Image src={aboutPic3} />
                 </div>
                 <span>
-                    If you ask most people what food they'd eat for the rest of their lives... it's pizza! So why not a Pizza boy NFT? Plus, we got inspiration from the Pizza boy character played by Kel Mitchell on Nickelodeon's "All That".
+                    If you ask most people what food they&apos;d eat for the rest of their lives... it&apos;s pizza! So why not a Pizza boy NFT? Plus, we got inspiration from the Pizza boy character played by Kel Mitchell on Nickelodeon&apos;s &quot;All That&quot;.
                 </span>
             </div>
             <div className="text-image">
