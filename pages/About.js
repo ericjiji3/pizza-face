@@ -22,7 +22,7 @@ export default function About() {
             </div>
         </div>
         <div className="whats-pizzaboy">
-            <h1>WHAT&apos;S PIZZABOY?</h1>
+            <h1>WHAT&apos;S PIZZA BOY?</h1>
             <div className="image-text">
                 <div className="image-wrapper">
                     <Image src={aboutPic3} />
