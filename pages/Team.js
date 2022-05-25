@@ -33,12 +33,12 @@ export default function Team() {
                 </div>
                 <div className="caption">
                     <h3>NO-PINEAPPLE</h3>
-                    <span>THINKS YOU'RE A BAD PERSON IF YOU ORDER PINEAPPLE ON PIZZA.</span>
+                    <span>THINKS YOU&apos;RE A BAD PERSON IF YOU ORDER PINEAPPLE ON PIZZA.</span>
                 </div>
             </div>
         </div>
         <div className="faq">
-            <h1>FAQ'S</h1>
+            <h1>FAQ&apos;S</h1>
             <Accordion/>
         </div>
       </div>

@@ -10,7 +10,7 @@ export default function About() {
         <div className="buy-now">
             <div className="text">
                 <span>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
-                <a href="#" class="button">BUY NOW</a>
+                <a href="#" className="button">BUY NOW</a>
             </div>
             <div className="images">
                 <div className="image-wrapper">
@@ -22,7 +22,7 @@ export default function About() {
             </div>
         </div>
         <div className="whats-pizzaboy">
-            <h1>WHAT'S PIZZABOY?</h1>
+            <h1>WHAT&apos;S PIZZABOY?</h1>
             <div className="image-text">
                 <div className="image-wrapper">
                     <Image src={aboutPic3} />
