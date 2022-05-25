@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 30px 0;
     // position: sticky;
     // top: 0;
     h1{
@@ -32,7 +33,127 @@
             cursor: pointer;
         }
     }
-    .socials a{
-        margin: 0 10px;
+    .socials{
+        display: flex;
+        justify-content: center;
+        a{
+            margin: 0 10px;
+            .image-wrapper{
+                margin: auto;
+            }
+        }
+    }
+}
+@media(max-width: 1150px){
+    .h-container{
+        h1{
+            font-size: 40px;
+        }
+        .h-links ul{
+            li{
+                margin: 0 20px;
+            }
+        }
+        .socials a{
+            margin: 0 10px;
+        }
+    }
+}
+@media(max-width: 866px){
+    .h-container{
+        h1{
+            font-size: 25px;
+            -webkit-text-stroke: 1px #76201E;
+        }
+        .h-links ul{
+            li{
+                margin: 0 15px;
+            }
+        }
+        .socials{
+            a{
+                margin: 5px;
+                .image-wrapper{
+                    width: 75%;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 777px){
+    .h-container{
+        h1{
+            font-size: 25px;
+        }
+        .h-links ul{
+            li{
+                margin: 0 10px;
+            }
+        }
+        .socials{
+            a{
+                margin: 0px;
+                .image-wrapper{
+                    width: 60%;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 700px){
+    .h-container{
+        h1{
+            font-size: 25px;
+        }
+        .bm-burger-button{
+            right: 50px;
+            left: unset!important;
+            position: absolute!important;
+        }
+        .bm-menu-wrap{
+            top: 0px;
+            width: 200px!important;
+            
+            .bm-menu{
+                background: #ffecab!important;    
+                .bm-item-list{
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    ul{
+                        list-style: none;
+                        padding: 0;
+                        text-align: center;
+                        display: flex!important;
+                        flex-direction: column;
+                        li{
+                            margin: 40px 0;
+                            font-family: 'Bouncy';
+                            font-style: normal;
+                            font-weight: 100;
+                            font-size: 18px;
+                            line-height: 16px;
+                            color: #FED206;
+                            -webkit-text-stroke: 1px #76201E;
+                            a.active{
+                                color: #76201E;
+                                text-decoration: none;
+                            }
+                        }
+                        li:hover{
+                            cursor: pointer;
+                        }
+                    }
+                    .socials{
+                        a{
+                            margin: 0px;
+                            .image-wrapper{
+                                width: 60%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }

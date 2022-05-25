@@ -1,5 +1,5 @@
 .r-container{
-    margin-top: 150px;
+    margin-top: 100px;
     h1{
         font-family: 'Bouncy';
         font-style: normal;
@@ -14,10 +14,11 @@
     .goal{
         display: flex;
         justify-content: space-between;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         .goal-container{
             width: 25%;
             .percentages{
+                margin-bottom: 50px;
                 h1{
                     text-align: left;
                     font-family: 'Ceviche One';
@@ -28,6 +29,7 @@
                     letter-spacing: 0.04em;
                     color: #FED206;
                     -webkit-text-stroke: 3px#000000;
+                    margin-bottom: 10px;
                 }
                 span{
                     display: block;
@@ -94,6 +96,9 @@
                 .image-wrapper{
                     padding: 15px;
                 }
+                .image-wrapper:hover{
+                    cursor: pointer;
+                }
                 span{
                     display: flex;
                     align-items: center;
@@ -132,6 +137,128 @@
                 line-height: 40px;
                 letter-spacing: 0.1em;
                 color: #76201E;
+            }
+        }
+    }
+}
+@media(max-width: 1300px){
+    .r-container{
+        .connect-wallet{
+            .buy-container{
+                h2{
+                    font-size: 35px;
+                    line-height: 50px;
+                    -webkit-text-stroke: .5px #FED206;
+                }
+                .inventory{
+                    width: 75%;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 866px){
+    .r-container{
+        .goal{
+            .goal-container{
+                .percentages{
+                    h1{
+                        font-size: 70px;
+                    }
+                    span{
+                        font-size: 25px;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+            // .image-wrapper{
+            //     width: 50%;
+            // }
+        }
+        .connect-wallet{
+            .buy-container{
+                h2{
+                    font-size: 30px;
+                    line-height: 50px;
+                    -webkit-text-stroke: .25px #FED206;
+                }
+                .inventory{
+                    width: 90%;
+                    .image-wrapper{
+                        width: 25%;
+                    }
+                    span{
+                        font-size: 40px;
+                    }
+                }
+                .buy{
+                    a{
+                        font-size: 25px;
+                        padding: 0 30px;
+                    }
+                }
+                .current-price{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+@media(max-width: 700px){
+    .r-container{
+        .goal{
+            display: block;
+            .goal-container{
+                width: 100%;
+                .percentages{
+                    h1{
+                        text-align: center;
+                    }
+                    span{
+                        text-align: center;
+                    }
+                }
+            }
+            .image-wrapper{
+                justify-content: center;
+            }
+        }
+        .connect-wallet{
+            flex-direction: column-reverse;
+            .image-container{
+                margin-bottom: 40px;
+            }
+            .buy-container{
+                h2{
+                    font-size: 36px;
+                    line-height: 46px;
+                    -webkit-text-stroke: .25px #FED206;
+                    margin-bottom: 30px;
+                }
+                .inventory{
+                    width: 100%;
+                    margin-bottom: 50px;
+                    .image-wrapper{
+                        width: 25%;
+                    }
+                    span{
+                        font-size: 40px;
+                    }
+                }
+                .buy{
+                    width: 100%;
+                    margin: 15px 0;
+                    display: block;
+                    text-align: center;
+                    a{
+                        font-size: 30px;
+                    }
+                }
+                .current-price{
+                    font-size: 30px;
+                    display: block;
+                    text-align: center;
+                }
             }
         }
     }

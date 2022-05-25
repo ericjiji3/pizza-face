@@ -23,6 +23,21 @@ a {
   font-family: 'Bouncy';
   src: url('../assets/fonts/bouncy.otf');
 }
+@media(max-width: 1500px){
+  .home .padded-container{
+    padding: 0 150px;
+  }
+}
+@media(max-width: 1250px){
+  .home .padded-container{
+    padding: 0 100px;
+  }
+}
+@media(max-width: 1000px){
+  .home .padded-container{
+    padding: 0 50px;
+  }
+}
 
 @import "../styles/partials/about";
 @import "../styles/partials/header";
